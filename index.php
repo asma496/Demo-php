@@ -51,5 +51,25 @@ $arr=array("asma","madiha","iqra");
     <li><?php  echo $value ?></li>
 <?php } ?>
 </ul>
+
+
+<?php
+$d=strtotime("10:30pm April 15 2014");
+echo "Created date is " . date("Y-m-d h:i:sa", $d);
+?>
+
+
+
+
+
+
+
+<?php
+$d1=strtotime("february 17 2020");
+$d2=ceil(($d1-time())/60/60/24);
+echo   $d2 ;
+?>>
+
+
 </body>
 </html>
